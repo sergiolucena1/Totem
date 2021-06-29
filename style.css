@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: #e5e5e5; */
+    background-image:linear-gradient(to bottom , #2957a4 , #5E9AF5) ;
+    background-attachment: fixed;
+    /* color: #24282b; */
+
+    display: flex;
+    max-width: 800px;
+    max-height: 600px;
+
+    /* text-align: center; (alinhar os textos) */
+
+    font-family: 'Montserrat', sans-serif;
+
+    margin: 0;
+
+}
+
+.container{
+    width: 800px;
+    height: 600px;
+
+    margin: 0 auto ;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 700px;
+    height: 100px;
+
+
+}
+img{
+    width: 20rem;
+    
+}
+
+.ideias{
+    width: 800px;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+    
+}
+.content{
+    width: 125px;
+    height: 90px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+  
+
+}
+
+.idea{
+    display: flex; /*ficar um ao lado do outro*/
+    flex-direction: column;
+    justify-content: center;   
+
+    background-color: #fff;
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.1);
+    border-radius: 8px; /*arredondamento da borda*/
+
+    padding: 20px 27px; /*espaçamento*/
+
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.idea h4{
+    font-size: 17px;
+    margin: 0%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    margin-top: 3px;
+    color: #2957a4;
+}
+.idea p{
+   
+    margin-top: 10px;
+    width: 100%;
+    font-size: 10px;
+    color: #474B4F;
+    font-weight: bolder;
+    text-align: center;
+   
+}
+
+.textRF{
+    padding-top: 15px;
+}
+
+.text2V{
+    padding-top: 15px;
+}
+
+.textCRC{
+    padding-top: 15px;
+}
+
+
+
+.modal-content{
+    height: 350px;
+    text-align: center;
+    justify-content: center;
+    background-color: #fff;
+
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.1);
+    border-radius: 8px; /*arredondamento da borda*/
+}
+
+.modal-header {
+    display: flex;
+    
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.modal-header h5{
+    font-size: 27px;
+    margin-left: 45px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    margin-top: 3px;
+    color: #2957a4;
+}
+
+.modal-header .close{
+    font-size: 27px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    color: #2957a4;
+}
+
+.modal-body{
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.modal-body button{
+    height: 60px;
+
+    font-size: 30px;
+}
+
